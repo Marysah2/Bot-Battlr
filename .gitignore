@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+
+# production build
+build/
+dist/
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# test / coverage
+coverage/
+jest-cache/
+
+# caches
+.cache/
+.parcel-cache/
+.next/
+.pnp.*
+.cache-loader/
+
+# optional: local json-server DB
+# remove the leading # to ignore db.json if you don't want it in git
+# db.json
+
+# other
+coverage/
